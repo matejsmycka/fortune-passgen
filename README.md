@@ -27,4 +27,11 @@ $ ./fortune-passgen.sh -n 3 3
 advice=again#healthy
 dolavimus%pohls*opinion
 object~property+waste
+
+Installation
+------------
+
+curl -O https://raw.githubusercontent.com/matejsmycka/fortune-passgen/refs/heads/main/fortune-passgen.sh 
+chmod +x fortune-passgen.sh
+sudo mv fortune-passgen.sh /usr/local/bin/fortune-passgen
 ```
