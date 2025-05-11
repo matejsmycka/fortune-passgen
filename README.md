@@ -7,6 +7,7 @@ This is a password generator that generates random passwords based on forutune c
 
 ## Usage
 
+```bash
 Usage: fortune-passgen.sh [options] [num_words]
 
 Options:
@@ -17,6 +18,7 @@ Options:
 
 Arguments:
   num_words     Number of words to generate per password (default: 4)
+```
 
 ## Example
 
@@ -26,6 +28,10 @@ advice=again#healthy
 dolavimus%pohls*opinion
 object~property+waste
 ```
+
+## Dependencies
+
+- `fortune`: A command-line utility that displays random quotes or messages.
 
 ## Installation
 
